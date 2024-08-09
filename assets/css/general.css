@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #eff2f1;
+}
+
+/* ============================================================ */
+/* Container Class could be use in all sections */
+/* ============================================================ */
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+@media(max-width: 1280px) {
+    .container {
+        max-width: 1024px;
+        margin: auto;
+    }
+}
+
+@media(max-width: 1024px) {
+    .container {
+        max-width: 768px;
+        margin: auto;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        max-width: 640px;
+        margin: auto;
+    }
+}
+
+@media(max-width: 640px) {
+    .container {
+        max-width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+}
+
+/* ============================================================ */
+/* Text decoration and anker tag designs */
+/* ============================================================ */
+.hidden {
+    display: none;
+}
+
+.decoration-none {
+    text-decoration: none;
+}
+
+.list-none {
+    list-style: none;
+}
+
+/* ============================================================ */
+/* flex and functions */
+/* ============================================================ */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-revers {
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.items-center {
+    justify-items: center;
+}
+
+.items-end {
+    justify-items: end;
+}
+
+/* ============================================================ */
+/* text sizes */
+/* ============================================================ */
+.font-xs {
+    font-size: smaller;
+}
+
+.font-sm {
+    font-size: small;
+}
+
+.font-base {
+    font-size: medium;
+}
+
+.font-lg {
+    font-size: large;
+}
+
+.font-xl {
+    font-size: larger;
+}
+
+.font-2xl {
+    font-size: x-large;
+}
+
+.font-3xl {
+    font-size: xx-large;
+}
+
+/* ============================================================ */
+/* text Colors */
+/* ============================================================ */
+.font-white {
+    color: white;
+}
+
+.font-black {
+    color: #000;
+}
